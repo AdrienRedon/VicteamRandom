@@ -15,6 +15,7 @@ import {
 } from 'react-native';
 
 import Header from './components/header/header.react';
+import Footer from './components/footer/footer.react';
 
 class VicteamRandom extends Component {
   render() {
@@ -22,6 +23,9 @@ class VicteamRandom extends Component {
       <View style={styles.container}>
         <Header>
         </Header>
+
+        <Footer>
+        </Footer>
       </View>
     );
   }
